@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <title>Enduan Fili | Portfolio</title>
+    <script type="text/javascript">
+      const handleClick = (url) => {
+        window.location.replace(url);
+      };
+    </script>
+  </head>
+  <body>
+    <div class="navBar">
+      <div class="navLeftContainer">
+        <h2 class="navLogoText">Enduan Fili</h2>
+      </div>
+      <div class="navRightContainer">
+        <a href="#" class="navLink">
+          <p class="navLink">Home</p>
+        </a>
+        <a href="#" class="navLink">
+          <p class="navLink">Projekte</p>
+        </a>
+        <a href="#our_school" class="navLink">
+          <p class="navLink">Unsere Schule</p>
+        </a>
+        <a href="#contact" class="navLink">
+          <p class="navLink">Kontakt</p>
+        </a>
+      </div>
+    </div>
+    <section class="heroSection">
+      <div class="heroLeftContainer"></div>
+      <div class="heroRightContainer">
+        <h1 class="heroTitle">Enduan Fili - Media Aufgabe</h1>
+        <p class="heroText">
+          Hallo! Mein Name ist Enduan Fili, ich bin 17 Jahre alt und Schüler an
+          der HTL-Shkoder, wo ich Informatik studiere. Neben der Schule liebe
+          ich es, Schach zu spielen, Basketball, Schwimmen und Boxen zu
+          betreiben sowie mich mit dem Codieren und dem Bau von Robotern zu
+          beschäftigen. Mit Freunden habe ich ein Online-Unternehmen gegründet,
+          das maßgeschneiderte Websites und Apps anbietet, und es läuft sehr
+          gut. Mein Ziel ist es, meine Ausbildung in Österreich fortzusetzen, da
+          ich von den Bildungsmöglichkeiten und der Technologieszene dort
+          angezogen werde.
+        </p>
+        <div class="heroButton">
+          <p class="heroButtonText">Mehr Erfahren</p>
+        </div>
+      </div>
+    </section>
+    <section class="projectsSection">
+      <div class="projectsTopContainer">
+        <h1 class="sectionTitle">Meine Projekte</h1>
+      </div>
+      <div class="projectsBottomContainer">
+        <div class="project">
+          <div
+            class="projectTopContainer"
+            onclick="handleClick(`polaroid.html`)"
+            id="polaroid"
+          ></div>
+          <div class="projectBottomContainer">
+            <h2 class="projectTitle">Polaroid</h2>
+            <p class="projectDescription">
+              Eine unterhaltsame Übung zur Erstellung eines Polaroid-Fotos, das
+              auf die Bewegung der Maus reagiert
+            </p>
+          </div>
+        </div>
+        <div class="project">
+          <div
+            class="projectTopContainer"
+            onclick="handleClick(`animations.html`)"
+            id="loading"
+          ></div>
+          <div class="projectBottomContainer">
+            <h2 class="projectTitle">Loading Animation</h2>
+            <p class="projectDescription">
+              Ein Ladebalken, der sich mit einer Animation füllt
+            </p>
+          </div>
+        </div>
+        <div class="project">
+          <div
+            class="projectTopContainer"
+            onclick="handleClick(`übung_med.html`)"
+            id="ubung"
+          ></div>
+          <div class="projectBottomContainer">
+            <h2 class="projectTitle">Formulare Validierung</h2>
+            <p class="projectDescription">
+              Eine Website, auf der Sie durch Ausfüllen eines Formulars
+              Informationen übermitteln können
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="aboutSection" id="our_school">
+      <div class="aboutRightContainer"></div>
+      <div class="aboutLeftContainer">
+        <h1 class="sectionTitle">Über meine Schule - HTL Shkodër</h1>
+        <p class="aboutText">
+          Die Österreichische Schule „Peter Mahringer“ (auch Österreichische
+          Schule Shkodra „Peter Mahringer“, Österreichische Schule Shkodra oder
+          HTL Shkodra) ist eine HTL für Informationstechnologie und somit eine
+          berufsbildende höhere Schule im Norden Albaniens im Qark Shkodra in
+          der gleichnamigen Stadt Shkodra. Die albanische Bezeichnung der Schule
+          ist Shkolla Austriake „Peter Mahringer“ oder Shkolla Austriake në
+          Shkodër. Der Zusatzname der Schule wurde nach Peter Mahringer aufgrund
+          seines langjährigen Engagement für Kinder und Jugendliche auf dem
+          Balkan benannt.
+        </p>
+        <div
+          class="aboutButton"
+          onclick="handleClick(`https://www.htl-shkoder.com`)"
+        >
+          <p class="aboutButtonText">Website Besuchen</p>
+        </div>
+      </div>
+    </section>
+    <section class="contactSection" id="contact">
+      <div class="contactBottomContainer">
+        <div class="contactBottomLeftContainer">
+          <div class="contactInlineContainer">
+            <div class="contactImage"></div>
+            <h1 class="sectionTitle">Möchten Sie Mehr Wissen?</h1>
+          </div>
+          <p class="contactText">
+            Das war mein Portofolio. Ich freue mich darauf, Ihre Fragen zu
+            meinen Erfahrungen und meiner Arbeitsmoral zu beantworten, und bitte
+            Sie, mich per E-Mail zu kontaktieren:
+          </p>
+          <div class="contactLinksContainer">
+            <a href="tel:123456789" class="contactLink">
+              <h3 class="contactLink">+123456789</h3>
+            </a>
+            <a href="mailto:EndFil22@htl-shkoder.com" class="contactLink">
+              <h3 class="contactLink">EndFil22@htl-shkoder.com</h3>
+            </a>
+            <a href="https://www.red-tech.dev" class="contactLink">
+              <h3 class="contactLink">RED Tech</h3>
+            </a>
+            <a href="https://www.htl-shkoder.com" class="contactLink">
+              <h3 class="contactLink">HTL Shkoder</h3>
+            </a>
+          </div>
+        </div>
+        <div class="contactBottomRightContainer"></div>
+      </div>
+    </section>
+  </body>
+</html>
